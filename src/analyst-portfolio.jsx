@@ -94,9 +94,9 @@ const sqlQueries = {
 
 const skills = [
   { name: "SQL / NRQL", level: 82 }, { name: "Excel", level: 85 },
-  { name: "Databricks / Spark SQL", level: 60 }, { name: "Tableau", level: 55 },
-  { name: "New Relic", level: 90 }, { name: "Angular / TypeScript", level: 70 },
-  { name: "Data Visualization", level: 78 }, { name: "Python", level: 45 },
+  { name: "Databricks / Spark SQL", level: 55 }, { name: "Tableau", level: 60 },
+  { name: "New Relic", level: 85 }, { name: "Angular / TypeScript", level: 60 },
+  { name: "Data Visualization", level: 90 }, { name: "Python", level: 35 },
 ];
 
 function KPICard({ label, value, sub, color }) {
@@ -404,7 +404,7 @@ export default function Portfolio() {
               <SectionCard style={{ marginBottom: 0 }}>
                 <h3 style={{ fontSize: 15, fontWeight: 600, marginTop: 0, marginBottom: 14 }}>Domain Knowledge</h3>
                 <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
-                  {["Fuel Pricing","Retail Analytics","Data Validation","Price Elasticity","Competitive Analysis","Supply Chain","Computer Vision QA","Agile / Scrum","SRE / Monitoring","Financial Reporting"].map(d => (<span key={d} style={{ background: COLORS.bg, border: `1px solid ${COLORS.border}`, padding: "5px 12px", borderRadius: 6, fontSize: 11, color: COLORS.textMuted }}>{d}</span>))}
+                  {["Retail Analytics","Data Validation","Price Elasticity","Competitive Analysis","Supply Chain","Computer Vision QA","Agile / Scrum","SRE / Monitoring","Financial Reporting"].map(d => (<span key={d} style={{ background: COLORS.bg, border: `1px solid ${COLORS.border}`, padding: "5px 12px", borderRadius: 6, fontSize: 11, color: COLORS.textMuted }}>{d}</span>))}
                 </div>
               </SectionCard>
               <SectionCard style={{ marginBottom: 0 }}>
